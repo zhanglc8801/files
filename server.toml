@@ -1,0 +1,6 @@
+[server]
+bind_addr = "0.0.0.0:52333"  # client连接端口
+
+[server.services.web1]
+token = "123456"
+bind_addr = "0.0.0.0:58080"  # 对外访问端口
